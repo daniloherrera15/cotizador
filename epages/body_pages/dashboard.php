@@ -92,36 +92,7 @@ $con = new Connection($server,$user,$password,$dbname);
             <a href="#" class="small-box-footer">Más Información <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
-                <div class="col-lg-3 col-xs-6">
-          <!-- small box -->
-          <div class="small-box bg-red">
-            <div class="inner">
-              <?php $rcot=$rcot.'('.$porr.'<sup style="font-size: 20px">%</sup>)' ?>
-              <?php echo '<h3>'.$rcot.'</h3>' ;?>
 
-
-              <p>Cotizaciones Rechazadas (Mes)</p>
-            </div>
-            <div class="icon">
-              <i class="ion ion-pie-graph"></i>
-            </div>
-            <a href="#" class="small-box-footer">Más Información <i class="fa fa-arrow-circle-right"></i></a>
-          </div>
-        </div>
-        <!-- ./col -->
-        <div class="col-lg-3 col-xs-6">
-          <!-- small box -->
-          <div class="small-box bg-yellow">
-            <div class="inner">
-              <?php echo '<h3>'.$usun.'</h3>' ;?>
-              <p>Usuarios Nuevos</p>
-            </div>
-            <div class="icon">
-              <i class="ion ion-person-add"></i>
-            </div>
-            <a href="#" class="small-box-footer">Más Información <i class="fa fa-arrow-circle-right"></i></a>
-          </div>
-        </div>
         <!-- ./col -->
 
         <!-- ./col -->

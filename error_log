@@ -1,0 +1,11 @@
+[11-Jan-2018 07:46:29 America/Denver] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/cvsccomc/public_html/seguridad/classes/conectar.php on line 15
+[11-Jan-2018 07:46:29 America/Denver] PHP Warning:  mysql_select_db(): Access denied for user ''@'localhost' (using password: NO) in /home/cvsccomc/public_html/seguridad/classes/conectar.php on line 16
+[11-Jan-2018 07:46:29 America/Denver] PHP Warning:  mysql_select_db(): A link to the server could not be established in /home/cvsccomc/public_html/seguridad/classes/conectar.php on line 16
+[11-Jan-2018 07:46:29 America/Denver] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/cvsccomc/public_html/seguridad/classes/conectar.php on line 17
+[11-Jan-2018 07:46:29 America/Denver] PHP Warning:  mysql_query(): A link to the server could not be established in /home/cvsccomc/public_html/seguridad/classes/conectar.php on line 17
+[11-Jan-2018 07:46:29 America/Denver] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/cvsccomc/public_html/seguridad/classes/conectar.php:15) in /home/cvsccomc/public_html/seguridad/index.php on line 10
+[11-Jan-2018 07:46:29 America/Denver] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/cvsccomc/public_html/seguridad/classes/conectar.php:15) in /home/cvsccomc/public_html/seguridad/index.php on line 10
+[11-Jan-2018 08:04:22 America/Denver] PHP Fatal error:  Call to undefined method Coneccion::getConnection() in /home/cvsccomc/public_html/seguridad/index.php on line 27
+[11-Jan-2018 08:06:16 America/Denver] PHP Fatal error:  Call to undefined method Coneccion::getConection() in /home/cvsccomc/public_html/seguridad/index.php on line 15
+[11-Jan-2018 08:06:57 America/Denver] PHP Fatal error:  Call to undefined method Coneccion::getConection() in /home/cvsccomc/public_html/seguridad/index.php on line 15
+[11-Jan-2018 08:07:41 America/Denver] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cvsccomc/public_html/seguridad/classes/crud.php:132) in /home/cvsccomc/public_html/seguridad/index.php on line 28
